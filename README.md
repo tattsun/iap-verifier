@@ -2,6 +2,8 @@
 
 A simple wrapper of In-App-Purchase receipt validate APIs.
 
+For more documents, see http://hackage.haskell.org/package/iap-verifier.
+
 ## Usage
 
 ```
