@@ -8,9 +8,10 @@ For more documents, see http://hackage.haskell.org/package/iap-verifier.
 
 ```haskell
 import Network.IAP.Verifier
+import qualified Data.ByteString as BS
 main :: IO ()
 main = do
-  receipt <- readFile "./receipt"
+  receipt <- BS.readFile "./receipt"
   result <- verify defaultIAPSettings receipt
   case result of
     0 -> putStrLn "OK"
