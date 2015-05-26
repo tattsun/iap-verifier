@@ -10,7 +10,7 @@
 -- > main = do
 -- >   receipt <- BS.readFile "./receipt"
 -- >   result <- verify defaultIAPSettings receipt
--- >   case result of
+-- >   case status result of
 -- >     0 -> putStrLn "OK"
 -- >     _ -> putStrLn "Fail"
 --
