@@ -6,7 +6,7 @@ For more documents, see http://hackage.haskell.org/package/iap-verifier.
 
 ## Usage
 
-```
+```haskell
 import Network.IAP.Verifier
 main :: IO ()
 main = do
