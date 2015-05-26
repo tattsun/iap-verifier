@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                iap-verifier
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            A simple wrapper of In-App-Purchase receipt validate APIs.
 -- description:
 homepage:            http://github.com/tattsun/iap-verifier

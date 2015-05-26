@@ -79,7 +79,6 @@ verify settings receipt = do
       request = requestRaw { requestBody = RequestBodyLBS payload
                            , method = "POST"
                            }
-  print request
   withManager $ \manager -> do
     response <- http request manager
     responseBody response C.$$+- do
